@@ -8,8 +8,8 @@
 
 .center{
     margin: 0 auto;
-    max-width: 1280px;
-    padding: 00 2%;
+    max-width: 1480px;
+    padding: 0 2%;
     
 }
 header{
@@ -71,14 +71,14 @@ section{
 .titulo{
     display: flex;
     justify-content: left;
-    width: 50%;
+    width: 55%;
     
    
     
 }
 .titulo h1{
     font-size: 70px;
-    height: 10px;
+    height: 100%;
     text-align: left;
     margin-right: 5%;
     -webkit-text-stroke-width: 0.5px;
@@ -91,7 +91,7 @@ section{
     margin-top: 20px;
     color: rgb(136, 136, 136) ;
 }
-    .descricao button{
+.descricao button{
         width: 180px;
         height: 50px;
         padding: 5px;
@@ -102,8 +102,8 @@ section{
         border: none;
         letter-spacing: 5px;
         margin-top: 10%;
-    }
-    .descricao button:hover{
+    } 
+.descricao button:hover{
         background-color: black;
     }
     .gradie2{  
@@ -140,20 +140,21 @@ section{
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
+    
+   
 }
 .tema{
     display: flex;
-    
-    
 }
 .img_tema{
     display: flex;
     justify-content: left;
 }
 .img_tema img{
-    height: 180px;
+    width: 100%;
+    height: 100%;
 }
-.tema_desc{
+.tema_desc{ width: 100%;
    padding: 0% 2%;
 }
 .tema_desc h1{
@@ -165,16 +166,15 @@ section{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ;
 }
 .tema_desc p{
+    height: 100%;
+    width: 100%;
     margin-top: 10px;
     line-height: 25px;
     color: rgb(136, 136, 136) ;
 }
 .tema:last-child{
-    justify-content: right;
-    
+    justify-content: right;   
 }
-
-
 
 @media screen and (max-width : 600px) {
 
@@ -219,6 +219,7 @@ section{
         justify-content: right;
     }
     .active .menu{
+        
         display: block;
     }
     section{
@@ -259,5 +260,21 @@ section{
         margin-left: 0%;
         margin-bottom: 60px;
         padding: 5% 5%;
+    }
+    .titulo_new{
+        color: rgb(245, 144, 61);
+        font-size: 40px;
+        margin-bottom: 0% ;
+    }
+    .section_tema{
+        display: block;
+        margin-top: 0%;
+    }
+    .tema{
+        
+        padding: 5% 0;
+    }
+    .img_tema img{
+        width: 100%;
     }
 }
